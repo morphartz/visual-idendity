@@ -1,0 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700;800;900&family=Inter:wght@400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap');
+@import "tailwindcss";
+
+:root { --paper:#f2f0ea; --ink:#161614; --muted:#5d5a53; --line:#c9c5bc; }
+html{scroll-behavior:smooth} body{margin:0;background:var(--paper);color:var(--ink);font-family:Inter,system-ui,sans-serif}*{box-sizing:border-box}.bg-paper{background:var(--paper)}.text-ink{color:var(--ink)}.noise-overlay{opacity:.06;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 220 220' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.35'/%3E%3C/svg%3E");mix-blend-mode:multiply}.display-font{font-family:'Barlow Condensed',sans-serif}.mono-font{font-family:'Space Mono',monospace}a{text-decoration:none;color:inherit}
