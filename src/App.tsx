@@ -16,7 +16,6 @@ export default function App() {
     <div className="relative min-h-screen bg-paper text-ink">
       <Cursor />
       <div className="noise-overlay pointer-events-none fixed inset-0 z-[100]" aria-hidden />
-      <div className="pointer-events-none fixed inset-0 z-[90] border-[6px] border-paper md:border-[10px]" aria-hidden />
       <Header />
       <main>
         <Hero />
